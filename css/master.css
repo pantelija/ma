@@ -73,6 +73,8 @@ h1, h2 {
   margin-top: 50px;
   margin-bottom: 10px;
   color: #122836;
+  line-height: 1.2;
+  margin-bottom: 1.3rem;
 
 }
 
@@ -314,9 +316,7 @@ span {
   }
 
   h1, h2 {
-
     margin-top: 20px;
-
   }
 
   .card-top {
@@ -412,11 +412,14 @@ span {
 }
 
 
+
 .top-list a:hover {
   color: hsl(219, 55%, 50%);
   text-decoration: underline;
 
 }
+
+
 
 .timeline {
 	display: flex;
@@ -481,4 +484,106 @@ tr:nth-child(even) {
 th {
   background-color: #d4e5f3;
   font-weight: normal;
+}
+
+
+
+.blog-wrapper {
+    border-top: 1px solid #ccc;
+    padding: 3rem 0;
+}
+
+.blog-wrapper:last-child {
+    border-bottom: 1px solid #ccc;
+}
+
+
+.blog-details a {
+  color: #122836;
+  text-decoration: none;
+}
+
+.blog-details a:hover {
+  color: hsl(219, 55%, 50%);
+}
+
+.blog-details h2 {
+  font-size: 22px;
+  color: #122836;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 1.4rem;
+}
+
+
+.blog-details span {
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 12px;
+  color: #949494;
+}
+
+.blog-details p {
+    border-radius: 20px;
+    padding: 1px 12px 3px;
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-right: 12px;
+}
+
+.ponude {
+  color: #177d80;
+  background: #cbf6f7;
+}
+
+.testovi {
+  color: #927513;
+  background: #f3e8c6;
+}
+
+.intervju {
+  color: #692b92;
+  background: #f1dcff;
+}
+
+.tutorijal {
+  color: #208810;
+  background: #d2f9cc;
+}
+
+
+.sto  {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.full-width {
+  margin-left: -200px;
+  margin-right: -200px;
+  width: 910px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+@media only screen and (max-width: 950px) {
+  .full-width {
+    margin: 0 auto;
+    width: 710px;
+    margin-left: -100px;
+    margin-right: -100px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .full-width {
+    margin: 0 auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
 }
