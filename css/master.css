@@ -533,7 +533,17 @@ th {
     margin-right: 12px;
 }
 
-.ponude {
+.blog-single p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.blog-single ul {
+  margin: 25px 40px;
+  font-size: 17px;
+}
+
+.origin {
   color: #177d80;
   background: #cbf6f7;
 }
@@ -543,7 +553,7 @@ th {
   background: #f3e8c6;
 }
 
-.intervju {
+.razvoj {
   color: #692b92;
   background: #f1dcff;
 }
