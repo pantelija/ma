@@ -137,7 +137,6 @@ h1, h2 {
 
 .card-price p {
   display: inline-block;
-
   margin: 16px 10px 0 0;
 }
 
@@ -598,4 +597,63 @@ th {
     margin-right: auto;
 
   }
+}
+
+ul.lista {
+    margin: 1rem 0;
+    list-style: none;
+}
+
+ul.lista li {
+  line-height: 26px;
+  display: flex;
+}
+
+
+ul.lista li:before {
+    content: url(../images/1.svg);
+    display: inline-block;
+}
+
+
+a.active {
+  color: hsl(219, 55%, 50%);
+  border-bottom: 2px solid hsl(219, 55%, 50%);
+  padding-bottom: 18px;
+}
+
+.review-title {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+.review-punch {
+  color: #9da2a9;
+  font-size: 18px;
+}
+
+.review-price p {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+p.sajt{
+  margin: 1.5rem 0;
+}
+
+.sajt a {
+  color: hsl(219, 55%, 50%);
+  text-decoration: none;
+}
+
+.sajt a:hover {
+  text-decoration: underline;
+}
+
+
+.sajt a:after {
+    content: url(../images/external.svg);
+    width: 14px;
+    display: inline-block;
+    margin-left: 7px;
 }
