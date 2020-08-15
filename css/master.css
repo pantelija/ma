@@ -305,6 +305,10 @@ span {
   color: #5d6a71;
 }
 
+.spanholder {
+  display: inline-block;
+}
+
 @media only screen and (max-width: 679px) {
 
   .all {
@@ -318,9 +322,6 @@ span {
     padding: 0;
   }
 
-  h1, h2 {
-    margin-top: 20px;
-  }
 
   .card-top {
     display: flex;
@@ -385,6 +386,8 @@ span {
   .nav-links a {
 	font-size: 13px;
   }
+
+
 
 }
 
@@ -512,7 +515,7 @@ th {
 }
 
 .blog-details h2 {
-  font-size: 24px;
+  font-size: 22px;
   color: #122836;
   font-weight: 400;
   line-height: 1.2;
@@ -600,6 +603,16 @@ th {
     margin-right: auto;
 
   }
+}
+
+
+@media only screen and (max-width: 330px) {
+
+  .spanholder {
+    display: block;
+    margin-top: 1rem;
+  }
+
 }
 
 ul.lista {
