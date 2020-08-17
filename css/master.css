@@ -430,7 +430,7 @@ span {
 .timeline {
 	display: flex;
 	background: white;
-	padding: 40px 20px;
+	padding: 40px 30px 40px 20px;
 	border-top: 1px solid #e8e8e8;
 }
 
@@ -463,6 +463,12 @@ span {
 	margin-bottom: 10px;
 }
 
+.timeline-text p {
+	font-size: 16px;
+}
+
+
+
 
 .timeline-text span {
 	color: #a3aab5;
@@ -491,6 +497,16 @@ tr:nth-child(even) {
 th {
   background-color: #d4e5f3;
   font-weight: normal;
+}
+
+
+@media only screen and (max-width: 330px) {
+
+  .timeline {
+  	display: flex;
+  	flex-direction: column;
+  }
+
 }
 
 
@@ -678,6 +694,7 @@ p.sajt{
 footer {
   text-align: center;
   margin-bottom: 2rem;
+  font-size: 14px;
 }
 
 .fl {
@@ -687,10 +704,8 @@ footer {
 
 .fl a {
   margin-right: 10px;
-  font-size: 14px;
 }
 
 .small {
-  font-size: 14px;
   margin-top: 10px;
 }
