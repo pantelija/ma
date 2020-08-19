@@ -57,6 +57,17 @@ nav {
 }
 
 
+@media only screen and (max-width: 571px) {
+
+	.svinav {
+		display: none;
+	}
+  
+}
+
+
+
+
 .all {
   margin: 0 auto;
   width: 620px;
@@ -248,6 +259,15 @@ span {
 }
 
 
+@media only screen and (max-width: 401px) {
+
+  .card-pills a.pill:nth-child(3) {
+	  margin-top: 10px;
+  }
+  
+  
+}
+
 
 .card-website {
   display: inline-block;
@@ -392,17 +412,7 @@ span {
 }
 
 
-.contact a {
-  color: hsl(219, 55%, 50%);
-  text-decoration: none;
 
-}
-
-.contact a:hover {
-  color: hsl(219, 55%, 50%);
-  text-decoration: underline;
-
-}
 
 .top-lista p {
   line-height: 30px;
@@ -425,6 +435,17 @@ span {
 
 }
 
+.contact a {
+  color: hsl(219, 55%, 50%);
+  text-decoration: none;
+
+}
+
+.contact a:hover {
+  color: hsl(219, 55%, 50%);
+  text-decoration: underline;
+
+}
 
 
 .timeline {
@@ -514,10 +535,6 @@ th {
 .blog-wrapper {
     border-top: 1px solid #ccc;
     padding: 3rem 0;
-}
-
-.blog-wrapper:last-child {
-    border-bottom: 1px solid #ccc;
 }
 
 
