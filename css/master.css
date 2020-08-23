@@ -62,7 +62,7 @@ nav {
 	.svinav {
 		display: none;
 	}
-  
+
 }
 
 
@@ -264,8 +264,8 @@ span {
   .card-pills a.pill:nth-child(3) {
 	  margin-top: 10px;
   }
-  
-  
+
+
 }
 
 
@@ -725,4 +725,45 @@ footer {
 
 .small {
   margin-top: 10px;
+}
+
+
+.filters {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  font-size: 13px;
+}
+
+.filters a {
+  color: #4B606C;
+  text-align: center;
+  text-decoration: none;
+  background: white;
+  border: 1px solid #b2cddc;
+  padding: 4px 9px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.filters a:last-child {
+  margin-right: 0;
+}
+
+.filters a.selected, .filters a:hover {
+  background: #e3eaf5;
+}
+
+
+@media only screen and (max-width: 355px) {
+  .filters a {
+    width: 40%;
+    margin-top: 5px;
+  }
+}
+
+h1 span {
+  font-size: 20px;
+  color: #708896;
 }
